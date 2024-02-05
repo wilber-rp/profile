@@ -1,0 +1,61 @@
+body {
+  /* background-color: rgb(255, 240, 230); */
+  background-color: rgb(255, 240, 230);
+  font-family: Roboto;
+  margin: 8px;
+  display: block;
+}
+
+h1, h2 {
+  margin-top: 0;
+  color: rgb(65, 133, 223);
+}
+
+p {
+  color: rgb(44, 92, 155);
+}
+
+.div-card {
+  transition: 400ms;
+  width: 700px;
+  padding: 40px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 255, 0.171);
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.151);
+}
+
+.div-card:hover {
+  transition: 400ms;
+  background-color: rgba(0, 0, 255, 0.199);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.300);
+}
+
+img {
+ border-radius: 50%;
+ height: 100px;
+}
+
+ul {
+ display: block;
+ list-style: none;
+ padding: 0;
+ font-size: 35px;
+ margin: 0px;
+}
+
+li {
+  display: inline-block;
+  margin: 10;
+}
+
+.social-icons {
+  transition: 400ms;
+  color: rgba(42, 54, 165, 0.301);
+}
+
+.social-icons:hover {
+  transition: 400ms;
+  color: rgba(42, 54, 165, 0.918);
+}
